@@ -1,0 +1,153 @@
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0px 20px 10px 20px;
+}
+
+h2{
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+
+
+header, main, footer{
+	border: 2px solid grey;
+	margin: 10px 0;
+}
+
+footer p {
+	padding: 10px 0px 10px 20px;
+}
+
+
+
+nav{
+	text-align:center;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	margin: 10px 0;
+}
+
+nav li{
+	background-color: rgba(196, 2, 2, 0.927);
+	padding:10px;
+	width:25%;
+	border-left: 2px solid grey;
+	border-right: 2px solid grey;
+	display: inline-block;
+	width: 20%;
+}
+
+nav li a{
+	color: white !important;
+	text-decoration: none !important;
+}
+
+nav .active{
+	background: white;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+nav .active a{
+	color: rgba(196, 2, 2, 0.927) !important;
+	text-decoration: none;
+}
+
+
+
+/* img{
+    height: 210px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 3px solid black;
+}
+
+img:hover{
+	box-shadow: 10px 10px rgba(196, 2, 2, 0.927); */
+
+img:nth-child(even){
+	height: 210px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 3px solid black;
+}
+
+img:nth-child(even):hover{
+	box-shadow: 8px 8px rgba(196, 2, 2, 0.927);
+
+}
+
+img:nth-child(odd){
+	height: 210px;
+    width: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 3px solid rgba(196, 2, 2, 0.927);
+}
+
+img:nth-child(odd):hover{
+	box-shadow: 8px 8px black;
+
+}
+
+
+
+div {
+	padding: 20px 20px 30px 20px;
+}
+
+div a{
+	color: rgba(196, 2, 2, 0.927) !important;
+	text-decoration: none;
+}
+
+div a:hover{
+	text-decoration: underline;
+}
+
+div p {
+	padding: 10px 0px 3px 0px;
+}
+
+.information ul {
+	padding: 10px 0px 3px 0px;
+}
+
+.book button {
+	background-color: rgba(196, 2, 2, 0.927);
+	color: white !important;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 10px 0px 13px 0px;
+	}
+
+.book button:hover {
+	color: black !important;
+	background-color: white;
+	border: 2px solid rgba(196, 2, 2, 0.927);
+	border-radius: 10px;
+  }
+
+
+
